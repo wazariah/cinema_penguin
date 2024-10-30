@@ -1,0 +1,71 @@
+<!-- Chapter 8 Practice Document -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Chapter 8 Practice</title>
+	<link rel="icon" href="cp_logo.png" />
+	<style>
+		body {
+			background-color: skyblue;
+			animation-name: colorChange;
+			animation-duration: 15s;
+			animation-iteration-count: 10s;
+		}
+
+		h1 {
+			font-size: 2.7em;
+			text-align: center;
+			width: 55%;
+			margin-left: auto;
+			margin-right: auto;
+			transition: all 4s linear 2s;
+
+		}
+
+		h1:hover {
+			font-size: 3.5em;
+			color: hotpink;
+			width: 70%;
+			transition: font-size 4s;
+		}
+
+		iframe {
+			display: block;
+			margin-right: auto;
+			margin-left: auto;
+			width: 95%;
+		}
+
+		div {
+			background-color: hotpink;
+			width: 350px;
+			height: 350px;
+			text-align: center;
+			vertical-align: middle;
+			margin-left: auto;
+			margin-right: auto;
+			animation-name: colorChange;
+			animation-duration: 10s;
+		}
+
+		@keyframes colorChange {
+			0% {background-color: hotpink;}
+			25% {background-color: lightsalmon;}
+			50% {background-color: orange;}
+			75% {background-color: crimson;}
+			100% {background-color: hotpink;}
+		}
+
+	</style>
+</head>
+<body>
+	<h1>Embedding a Video From YouTube</h1>
+	<!-- YouTube video code goes here -->
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/FtutLA63Cp8?si=juiQEflGEUk81A3H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	<br/>
+	<br/>
+	<div>Hi There!</div>
+</body>
+</html>
